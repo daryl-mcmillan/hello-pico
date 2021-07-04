@@ -11,4 +11,4 @@ add_executable(hello_pico main.cc)
 
 pico_add_extra_outputs(hello_pico)
 
-target_link_libraries(hello_pico pico_stdlib)
+target_link_libraries(hello_pico pico_stdlib hardware_pwm)
